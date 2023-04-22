@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main" >
+        <div class="survey" >
+            <center><h2><b>Survey Form</b></h2></center><hr>
+            <form id="survey" >
+                <fieldset>
+                    <legend>Personal Details</legend>
+            <label>First Name :</label>
+            <br><br>
+            <input type="text" name="first_name"  id="PD" placeholder="Enter Your First Name." required>
+            <br><br>
+            <label>Last Name :</label>
+            <br><br>
+            <input type="text" name="last_name"  id="PD" placeholder="Enter Your Last Name." required>
+            <br><br>
+            <label>Contact No. :</label>
+            <br><br>
+            <input type="number" name="contact_number" id="PD" placeholder="+91 9873XXXXXX" required>
+            <br><br>
+            
+            </fieldset>
+            <br><br>
+            <fieldset>
+                <legend> Address </legend>
+        
+            <br><br>
+           <label> Street :</label>
+           <br><br>
+            <input type="text" name="street_address" id="address" placeholder="Enter Street." required>
+            <br><br>
+            <label> City :</label>
+            <br><br>
+            <input type="text" name="city" id="address" placeholder="Enter your city." required>
+            <br><br>
+            <label>State :</label>
+            <br><br>
+            <input type="text" name="state" id="address" placeholder="Enter your state." required>
+            <br><br>
+            <label> Pincode :</label>
+            <br><br>
+        
+            <input type="number" name="pincode" id="address" placeholder="Enter pincode." required>
+            <br><br>
+           
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Rating</legend>
+            
+            <br><br>
+            <label>Quality of product recieved :</label>
+            <br><br>
+            <input type="radio" name="quality_of_products_received_rating" id="rating" required >
+            <span id="rating">Excellent</span>
+            &nbsp;
+            <input type="radio" name="quality_of_products_received_rating" id="rating" required>
+            <span id="rating">Good</span>
+             &nbsp;
+            <input type="radio" name="quality_of_products_received_rating" id="rating" required >
+            <span id="rating">Bad</span>
+            <br><br>
+            <label>Value for money :</label>
+            <br><br>
+            <input type="radio" name="value_for_money_rating" id="rating" required >
+            <span id="rating">Excellent</span>
+            &nbsp;
+            <input type="radio" name="value_for_money_rating" id="rating" required >
+            <span id="rating">Good</span>
+            &nbsp;
+            <input type="radio" name="value_for_money_rating" id="rating" required >
+            <span id="rating">Bad</span>
+            <br><br>
+            <label>Delivery :</label>
+            <br><br>
+            <input type="radio" name="delivery_rating" id="rating" required >
+            <span id="rating">Excellent</span>
+            &nbsp;
+            <input type="radio" name="delivery_rating" id="rating" required >
+            <span id="rating">Good</span>
+            &nbsp;
+            <input type="radio" name="delivery_rating" id="rating" required >
+            <span id="rating">Bad</span>
+        </fieldset>
+            <br><br><br>
+           <center> <input type="submit" value="Submit" name="submit" id="submit" </center>
+
+        </form>
+        </div>
+    </div>
+    
+</body>
+</html>
